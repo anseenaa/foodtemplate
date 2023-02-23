@@ -1,0 +1,79 @@
+/* Author:Anseena A Sharafudeen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    background-image: url("../images/agency-slider-04.jpg");
+    background-size: cover;
+}
+.div {
+    background-color: #f24f44;
+}
+.sub {
+    background-image: url("../images/background/restaurant-menu-bg.jpg");
+    min-height: 100vh;
+    background-size: cover;
+}
+.icons {
+    opacity: 0.5;
+}
+.fonts {
+    font-family: Brush Script MT;
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(216, 169, 82);
+}
+.cart {
+    width: 25px;
+    height: 25px;
+    color: white;
+    margin-top: 80px;
+    color: grey;
+}
+.carts {
+    width: 25px;
+    height: 25px;
+    color: grey;
+}
+.dot {
+    border-radius: 100%;
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.subs {
+    background-image: url("../images/background/hero-bg9.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+.s-last {
+    background-image: url("../images/background/fitness-about-bg.jpg");
+    background-size: cover;
+    min-height: 60vh;
+}
+.last {
+    background-image: url("../images/background/hero-bg3.jpg");
+    background-size: cover;
+    min-height: 100vh;
+}
+.svg {
+    color: rgb(194, 151, 72);
+    width: 25px;
+    height: 25px;
+}
+.card-border {
+    border-color: white;
+}
+@media screen and (max-width: 720px) and (min-width: 320px) {
+    .sub {
+        background-image: none;
+    }
+    .s-last {
+        background-image: none;
+    }
+}
